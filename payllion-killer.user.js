@@ -2,7 +2,7 @@
 // @name         payllion-killer
 // @namespace    http://tampermonkey.net/
 // @version      2.2
-// @description  Мгновенный автоклик по кнопке "Взять в работу", отключается через меню Tampermonkey
+// @description  Парсит наш любимый пейллион
 // @author       @Andreaweo
 // @match        *://lk.payllion.net/operator/tasks*
 // @grant        none
