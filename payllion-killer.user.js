@@ -4,7 +4,7 @@
 // @version      2.2
 // @description  Парсит наш любимый пейллион
 // @author       @Andreaweo
-// @match        *://lk.payllion.net/operator/tasks*
+// @match        *://lk.payllion.net/operator*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
