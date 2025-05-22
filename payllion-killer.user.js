@@ -2,7 +2,7 @@
 // @name         payllion-killer v.2.6
 // @namespace    http://tampermonkey.net/
 // @version      2.6
-// @description  Автокликер Payllion с включением/выключением по Ctrl+B (независимо от раскладки) и звуком
+// @description  Автокликер Payllion с включением/выключением по Ctrl+B и звуком
 // @author       @Andreaweo
 // @match        *://lk.payllion.net/operator*
 // @grant        none
