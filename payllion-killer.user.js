@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         payllion-killer v.2.4
+// @name         payllion-killer v.2.6
 // @namespace    http://tampermonkey.net/
-// @version      2.4
-// @description  Хола Амигос, убийца Payllion + звук + вкл/выкл по Ctrl+B 
+// @version      2.6
+// @description  Автокликер Payllion с включением/выключением по Ctrl+B (независимо от раскладки) и звуком
 // @author       @Andreaweo
 // @match        *://lk.payllion.net/operator*
 // @grant        none
@@ -14,7 +14,6 @@
 
     let enabled = true;
 
-    // Звук: создаём аудио-элемент
     const clickSound = new Audio("https://notificationsounds.com/storage/sounds/file-sounds-1168-pristine.mp3");
     clickSound.volume = 1.0;
 
@@ -25,16 +24,17 @@
         if (btn) {
             btn.click();
             clickSound.play().catch(e => console.warn("🔇 Ошибка при воспроизведении звука:", e));
-            console.log("✅ Заявка взята");
+            console.log("✅ Заявка взята автокликером");
         }
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
 
-    // Обработчик горячей клавиши Ctrl + B
-    document.addEventListener('keydown', (e) => {
-        if (e.ctrlKey && e.key.toLowerCase() === 'b') {
+    window.addEventListener('keydown', (e) => {
+        // e.code — физическая клавиша, срабатывает независимо от раскладки
+        if (e.ctrlKey && e.code === 'KeyB') {
             enabled = !enabled;
+            alert(`Автокликер ${enabled ? 'ВКЛЮЧЕН' : 'ВЫКЛЮЧЕН'}`);
             console.log(`🟢 Автокликер ${enabled ? 'включен' : 'выключен'}`);
         }
     });
