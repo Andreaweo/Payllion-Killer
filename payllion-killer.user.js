@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         payllion-killer with sound and toggle
+// @name         payllion-killer v.2.3
 // @namespace    http://tampermonkey.net/
 // @version      2.3
 // @description  Хола Амигос, представляю убийцу Payllion + звук + вкл/выкл по Shift+Tab 
