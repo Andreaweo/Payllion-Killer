@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         payllion-killer v.2.3
+// @name         payllion-killer v.2.4
 // @namespace    http://tampermonkey.net/
-// @version      2.3
-// @description  Хола Амигос, представляю убийцу Payllion + звук + вкл/выкл по Shift+Tab 
+// @version      2.4
+// @description  Хола Амигос, убийца Payllion + звук + вкл/выкл по Ctrl+B 
 // @author       @Andreaweo
 // @match        *://lk.payllion.net/operator*
 // @grant        none
@@ -31,11 +31,12 @@
 
     observer.observe(document.body, { childList: true, subtree: true });
 
-    // Обработчик горячей клавиши Shift + Tab
+    // Обработчик горячей клавиши Ctrl + B
     document.addEventListener('keydown', (e) => {
-        if (e.shiftKey && e.key === 'Tab') {
+        if (e.ctrlKey && e.key.toLowerCase() === 'b') {
             enabled = !enabled;
             console.log(`🟢 Автокликер ${enabled ? 'включен' : 'выключен'}`);
         }
     });
 })();
+
