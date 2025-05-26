@@ -7,6 +7,8 @@
 // @match        *://lk.payllion.net/operator*
 // @grant        none
 // @run-at       document-idle
+// @updateURL    https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
+// @downloadURL  https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
 // ==/UserScript==
 
 (function () {
