@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         Payllion Killer 
-// @namespace    https://github.com/Andreaweo/Payllion-Killer
-// @version      3.1
+// @name         🔪 Payllion Killer
+// @namespace    https://github.com/andreaweo/payllion-killer
+// @version      3.2
 // @description  Хола Амигос!
 // @icon         https://anime-icons.com/picture/11733
-// @author       @Andreaweo
+// @author       @andreaweo
 // @match        *://lk.payllion.net/operator*
 // @grant        none
 // @run-at       document-idle
-// @updateURL    https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
-// @downloadURL  https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
+// @updateURL    https://github.com/andreaweo/payllion-killer/raw/main/payllion-killer.user.js
+// @downloadURL  https://github.com/andreaweo/payllion-killer/raw/main/payllion-killer.user.js
 // ==/UserScript==
 
 (function () {
