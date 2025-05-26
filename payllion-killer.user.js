@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         🔪 Payllion Killer
+// @name         Payllion Killer
 // @namespace    https://github.com/Andreaweo/Payllion-Killer
-// @version      3.2
+// @version      3.3
 // @description  Хола Амигос!
 // @icon         https://anime-icons.com/picture/11733
-// @author       @andreaweo
+// @author       @Andreaweo
 // @match        *://lk.payllion.net/operator*
 // @grant        none
 // @run-at       document-idle
-// @updateURL    https://github.com/andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
-// @downloadURL  https://github.com/andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
+// @updateURL    https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
+// @downloadURL  https://github.com/Andreaweo/Payllion-Killer/raw/main/payllion-killer.user.js
 // ==/UserScript==
 
 (function () {
@@ -37,7 +37,7 @@
             font-size: 14px;
             text-align: center;
         ">
-            <div><strong>Payllion Killer</strong></div>
+            <div><strong>🔪 Payllion Killer</strong></div>
             <div style="margin-top: 5px;">[ Ctrl + B ] ON / OFF</div>
             <div>[ Ctrl + M ] Sound: <span id="sound-status">ON</span></div>
         </div>
