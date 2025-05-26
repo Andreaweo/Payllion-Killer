@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Payllion Killer 
 // @namespace    https://github.com/Andreaweo/Payllion-Killer
-// @version      3.0
+// @version      3.1
 // @description  Хола Амигос!
 // @icon         https://anime-icons.com/picture/11733
 // @author       @Andreaweo
