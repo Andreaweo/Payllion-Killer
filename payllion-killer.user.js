@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         🔪 Payllion Killer
 // @namespace    https://github.com/Andreaweo/Payllion-Killer
-// @version      3.3
+// @version      3.4
 // @description  Хола Амигос!
 // @author       @Andreaweo
 // @match        *://lk.payllion.net/operator*
