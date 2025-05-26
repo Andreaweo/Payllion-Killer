@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Payllion Killer 
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Andreaweo/Payllion-Killer
 // @version      3.0
 // @description  Хола Амигос!
 // @author       @Andreaweo
